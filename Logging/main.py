@@ -10,6 +10,6 @@ sites = ['https://www.youtube.com/', 'https://instagram.com', 'https://wikipedia
          'https://www.ozon.ru']
 
 for site in sites:
-    # ДОПОЛНИТЬ КОД ЗДЕСЬ
+    # ДОПОЛНИТЬ КОД ЗДЕСЬ >>> я решил не дополнять а сделать отдельный под себя >>> файл start.py
     response = rq.get(site, timeout=3)
     print(response)
